@@ -209,6 +209,7 @@ p1
 background: linear-gradient(135deg, rgba(74,21,181,1) 0%, rgba(159,18,18,1) 100%);
 margin-top:60px;
 transition:opacity 0.4s;
+
 }
 
 .start:hover 
@@ -306,6 +307,23 @@ p2, p3
     height:30px;
     position: absolute;
     right: 25px;
+    transition:opacity 0.3s;
+}
+
+.crypto .roll-down:hover 
+{
+    cursor: pointer;
+    animation:roll-down-animation 0.6s ease-in-out infinite;
+    opacity:0.3s;
+
+    
+}
+
+@keyframes roll-down-animation 
+{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(5px);}
+    100%{transform:translateY(0px);}
 }
 
 .value 
@@ -355,14 +373,21 @@ p2, p3
     align-items: center;
     justify-content: center;
     margin:30px 0px;
-    transition:opacity 0.4s;
+    transition:0.4s;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .continue:hover 
 {
-    opacity:0.6;
+    opacity:0.9;
     transition:0.4s;
     cursor: pointer;
+    transform:translateY(-8px);
+    -webkit-box-shadow: 0px 15px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 15px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 15px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 p4 
