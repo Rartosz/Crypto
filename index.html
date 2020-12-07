@@ -8,6 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
 
@@ -51,14 +52,14 @@
 
 
              <header>
-                 <img src="images/logo.png" alt="22bit.io" class="header-logo">
-                <button class="hamburger-button">
+                 <img src="images/logo.png" alt="22bit.io" class="header-logo" data-aos="zoom-in">
+                <button class="hamburger-button" data-aos="zoom-in" data-aos-delay="200">
                     <span class="first-span"></span>
                     <span class="second-span"></span>
                     <span class="third-span"></span>
                 </button>   
 
-                <nav>
+                <nav data-aos="zoom-in" data-aos-delay="500">
                     <a href="#" class="nav-link">HOME</a>
                     <a href="#" class="nav-link">CONTACT</a>
                     <a href="#" class="nav-link">ABOUT US</a>
@@ -68,11 +69,11 @@
                 </nav>
             </header>
 
-            <div class="cryptoPrices"></div>
+            <div class="cryptoPrices" data-aos="zoom-in" data-aos-delay="500"></div>
 
             <div class="landing-description-container">
 
-                <div class="landing-text">
+                <div class="landing-text" data-aos="zoom-in" data-aos-delay="700">
                     <h1>CRYPTOCURRENCY</h1>
                     <p1>Lorem ipsum is placeholder text commonly 
                         used in the graphic, print, and publishing 
@@ -82,7 +83,7 @@
                     <button class="start">GET STARTED</button>
                 </div>
                 
-                <img src="images/banner-img.svg" alt="">
+                <img src="images/banner-img.svg" alt="" data-aos="zoom-in" data-aos-delay="700">
 
             </div>
 
@@ -96,8 +97,8 @@
 
 
         <div class="small-market-container">
-            <img src="images/about-img-1.png" alt="About" class="about-img">
-            <div class="market-container">
+            <img src="images/about-img-1.png" alt="About" class="about-img" data-aos="fade-up">
+            <div class="market-container" data-aos="fade-up" data-aos-delay="250">
                 <span class="btc-holder">   <p2>BUY</p2>   <div class="crypto"> <img src="images/bitcoin-btc-logo.png" alt="BTC" class="currency">   <p>BTC/PLN</p> <img src="images/down4-512.png" alt="open" class="roll-down"> </div>  <p3>SELL</p3>   </span>
                 <input type="number" placeholder="VALUE: 1.000000000" class="value">
                 <div class="price-holder">256.07 PLN</div>
@@ -111,22 +112,22 @@
         <div class="wave-1"><img src="images/wave(1).svg"></div>
 
         <div class="about-us">
-            <div class="text-about-us">
+            <div class="text-about-us" data-aos="fade-up">
                 <h2><b>NEW TO CRYPTOCURRENCY?<br>NO PROBLEM.</b>OUR TEAM WILL <br> HELP YOU!</h2>
                 <p5>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p5>
                 <button>LEARN MORE</button>
             </div>
 
-            <img src="images/21.png" alt="ABOUT US">
+            <img src="images/21.png" alt="ABOUT US" data-aos="fade-up">
         </div>
 
         <div class="wave-1"><img src="images/wave(2).svg"></div>
 
 
        <div class="help">
-        <h3>How can we help you<br> get started?</h3>
+        <h3 data-aos="fade-up">How can we help you<br> get started?</h3>
         <div class="card-container">
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="250">
                     <p6>Lorem ipsum is 
                         placeholder text 
                         commonly used in 
@@ -137,7 +138,7 @@
                         and visual mockups.</p6>
                         <button>READ MORE</button>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="500">
                     <p6>Lorem ipsum is 
                         placeholder text 
                         commonly used in 
@@ -148,7 +149,7 @@
                         and visual mockups.</p6>
                         <button>READ MORE</button>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="750">
                     <p6>Lorem ipsum is 
                         placeholder text 
                         commonly used in 
@@ -162,15 +163,15 @@
         </div>
 
         <div class="description-container">
-                <div class="description">
+                <div class="description" data-aos="zoom-in" data-aos-delay="250">
                     <img src="images/time.png" alt="Very Fast Transactions" id="time">
                     <p7>Fast international transfers</p7>
                 </div>
-                <div class="description">
+                <div class="description" data-aos="zoom-in" data-aos-delay="500">
                     <img src="images/cr.png" alt="Many Cryptocurrencies" id="curr">
                     <p7>Exchange more than 30 currencies</p7>
                 </div>
-                <div class="description">
+                <div class="description" data-aos="zoom-in" data-aos-delay="750">
                     <img src="images/cs.png" alt="Earn money" id="btc-worek">
                     <p7>Earn on cryptocurrency investments</p7>
                 </div>
@@ -266,5 +267,35 @@
 
 
         <script src="app.js" async defer></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 100, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+        </script>
     </body>
 </html>
