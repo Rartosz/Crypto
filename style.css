@@ -552,6 +552,9 @@ h3
     align-items: center;
     justify-content: center;
     padding:60px 0px;
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 p6 
@@ -586,5 +589,273 @@ p6
 {
     opacity:0.7;
     cursor: pointer;
+    transition:0.4s;
+}
+
+.description-container 
+{
+    width:100%;
+    height:fit-content;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.description 
+{
+    width:330px;
+    height:fit-content;
+    margin:30px 80px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+#time 
+{
+    width:120px;
+    height:120px;
+    opacity:0.7;
+}
+
+#curr 
+{
+    width:120px;
+    height:120px;
+    opacity:0.7;
+}
+
+#btc-worek
+{
+    width:100px;
+    height:100px;
+    opacity:0.7;
+}
+
+p7 
+{
+    font-size:30px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    line-height: 32px;
+    margin-top:20px;
+    text-align: left;
+}
+
+
+footer 
+{
+    width:100%;
+    height:fit-content;
+    position:relative;
+padding:50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(14,10,109);
+    background: linear-gradient(180deg, rgba(14,10,109,1) 0%, rgba(99,0,46,1) 100%); 
+}
+
+.sign-up-container 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    height:fit-content;
+    margin:0px 150px;
+
+
+}
+
+.sign-up-footer 
+{
+    color:white;
+    border:2px solid white;
+    background:rgba(255, 255, 255, 0.39);
+    border-radius:50px;
+    font-size:35px;
+    padding:8px 20px;
+    margin:20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.sign-in-footer 
+{
+    color:white;
+    border:2px solid white;
+    background:rgba(255, 255, 255, 0.39);
+    border-radius:50px;
+    font-size:35px;
+    padding:8px 20px;
+    margin:20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+h4 
+{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    font-weight: 400;
+    margin:20px 0px;
+}
+
+
+.links-footer-container 
+{
+    height:fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px 60px;
+
+}
+
+
+
+
+h5 
+{
+    color:rgba(255, 255, 255, 0.603);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    font-weight: 400;
+    margin:5px 0px;
+}
+
+.footer-link 
+{
+    color:rgba(255, 255, 255, 0.774);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    text-decoration: none;
+    margin:5px 0px;
+}
+
+footer hr 
+{
+    width:90%;
+    height:2px;
+    border:none;
+    background:rgba(255, 255, 255, 0.514);
+    margin:40px 0px;
+}
+
+.lower-menu 
+{
+    width:100%;
+    height:fit-content;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-container 
+{
+    width:80px;
+    height:80px;
+    border-radius:100%;
+    border:3px solid white;
+    background:transparent;
+    background-image: url("images/twitter-logo-white-png.png");
+    background-size:95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0px 15px;
+}
+
+.social-container:nth-child(2)
+{
+    background-image: url("images/SMA-Facebook.png");
+}
+
+.social-container:nth-child(3)
+{
+    background-image: url("images/linkedIn_logo_circle.png");
+}
+
+
+.policy-container 
+{
+    width:fit-content;
+    height:fit-content;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px 20px;
+}
+
+.policy-link 
+{
+    color:white;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    margin:10px 0px;
+}
+
+.policy-link:nth-child(1)
+{
+    text-decoration: none;
+}
+
+.language 
+{
+    width:fit-content;
+    height:50px;
+    background:rgba(255, 255, 255, 0.459);
+    border-radius:50px;
+    border:none;
+    margin-left:150px;
+    font-size:20px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding:10px 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition:opacity 0.4s;
+}
+
+p8
+{
+    font-weight:500;
+}
+
+.down-arrow-white 
+{
+    height:30px;
+    width: 30px;
+    margin:0px 10px 0px 20px;
+}
+
+.language:hover 
+{
+    cursor: pointer;
+    opacity:0.7;
     transition:0.4s;
 }
