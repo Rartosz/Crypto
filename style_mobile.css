@@ -484,8 +484,8 @@ p4 a
 
 .wave-1 
 {
-    width:100vw;
-    max-width: 100vw;
+    width:50vw;
+    max-width: 50vw;
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
