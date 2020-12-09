@@ -72,17 +72,17 @@ body
 
 .profile img 
 {
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     border:1px solid white;
     border-radius:100%;
     padding:10px;
-    margin:0px 20px;
+    margin:0px 10px;
 }
 
 .nickname 
 {
-    font-size:25px;
+    font-size:20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     color:rgba(255, 255, 255, 0.705);
@@ -91,7 +91,7 @@ body
 
 .hamburger-link 
 {
-    font-size:25px;
+    font-size:17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     color:rgba(255, 255, 255, 0.705);
@@ -109,9 +109,9 @@ body
 }
 .ham-link-img 
 {
-    width:50px;
-    height:50px;
-    margin:40px 20px;
+    width:30px;
+    height:30px;
+    margin:20px 15px;
 }
 
 
@@ -152,8 +152,8 @@ header
 
 .first-span, .second-span, .third-span
 {
-    width:60px;
-    height:3px;
+    width:35px;
+    height:2px;
     background:rgb(255, 255, 255);
     border-radius:20px;
     position:absolute;
@@ -161,7 +161,7 @@ header
 
 .first-span 
 {
-    transform:translateY(-20px);
+    transform:translateY(-12px);
     transition:0.7s;
 }
 
@@ -174,7 +174,7 @@ header
 
 .third-span 
 {
-    transform:translateY(20px);
+    transform:translateY(12px);
     transition:0.7s;
 }
 
@@ -211,7 +211,7 @@ nav
 .nav-link 
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:20px;
+    font-size:15px;
     color:white;
     font-weight: 500;
     text-decoration: none;
