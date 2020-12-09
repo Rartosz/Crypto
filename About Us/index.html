@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" media="screen and (min-width: 1000px)">
@@ -62,40 +62,62 @@
 
                 <nav data-aos="zoom-in" data-aos-delay="500">
                     <a href="../index.html" class="nav-link">HOME</a>
-                    <a href="index.html" class="nav-link">CONTACT</a>
-                    <a href="#" class="nav-link">ABOUT US</a>
+                    <a href="../Contact/index.html" class="nav-link">CONTACT</a>
+                    <a href="index.html" class="nav-link">ABOUT US</a>
                     <a href="#" class="nav-link">LOGIN</a>
                     <a href="../Register/index.html" class="nav-link">SIGN UP</a>
                     <span class="underline-span"></span>
                 </nav>
             </header>
 
+           
+
 
             <div class="container">
-                <form data-aos="zoom-in">
-                    <h1>Need some advice? <br> Contact Us:</h1>
-                    <input type="text" class="name-input" placeholder="Name">
-                    <input type="email" class="email-input" placeholder="Email">
-                    <input type="tel" class="tel-input" placeholder="Phone number(optional)">
-                    <textarea placeholder="Your message..."></textarea>
-                    <input type="submit" id="submit" value="Wyślij">
-                </form>
-
-                <div class="holder" data-aos="zoom-in">
-                    <img src="images/mob-circle.png" alt="our mobile app">
-                    <div class="info">
-                        <img src="images/mail.png" alt="mail" class="mail">
-                        <p1>yourmail@example.com</p1>
-                        <img src="images/phone-png.png" alt="phone" class="phone">
-                        <p1>724998428</p1>
-                    </div>
+                <div class="info">
+                    <span data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/user.png" alt="Users" class="icon">
+                        <p1>10 000+ Active Users</p1>
+                    </span>
+                    <span data-aos="zoom-in" data-aos-delay="250">
+                        <img src="images/transacction.png" alt="Users" class="icon">
+                        <p1>100 transactions per minute</p1>
+                    </span>
+                    <span data-aos="zoom-in" data-aos-delay="450">
+                        <img src="images/growth.png" alt="Users" class="icon-big">
+                        <p1>30k BTC volumen</p1>
+                    </span>
+                    <span data-aos="zoom-in" data-aos-delay="550">
+                        <img src="images/employee.png" alt="Users" class="icon">
+                        <p1>50+ employees</p1>
+                    </span>
                 </div>
+                <img src="images/main-pic.png" alt="ABOUT US" class="main-pic" data-aos="zoom-in" data-aos-delay="150">
+
+                <button class="read-more">READ MORE</button>
             </div>
+        </div>
 
+        <div class="description">
+            <img src="images/about.png" alt="About Us" data-aos="zoom-in-left">
+            <span class="description-holder" data-aos="zoom-in-right">
+                <h1>About Us</h1>
+                <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta soluta voluptate quod aliquid magni? Reprehenderit similique maxime obcaecati at a, eaque quidem, libero debitis tempore mollitia animi, dolore dignissimos voluptatum.</p2>
+            </span>
 
+        </div>
 
+        <div class="description-bottom">
+            <img src="images/wave(2).svg" class="wave" >
+            <img src="images/dd.png" alt="About Us" class="about-img-bottom" data-aos="zoom-in-right" >
+            <span class="description-holder" data-aos="zoom-in-left">
+                <h2>About Us</h2>
+                <p3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta soluta voluptate quod aliquid magni? Reprehenderit similique maxime obcaecati at a, eaque quidem, libero debitis tempore mollitia animi, dolore dignissimos voluptatum.</p3>
+            </span>
+            <img src="images/wave.svg" class="wave-bottom">
+        </div>
 
-
+        <div class="trusted-us">
 
         </div>
 
@@ -122,12 +144,10 @@
 
 
 
-
-
-
-
-
       <footer>
+
+
+
         <div class="sign-up-container">
             <h4>Take your crypto <br> to the next level</h4>
             <button class="sign-up-footer">Sign Up</button>
@@ -235,7 +255,7 @@ AOS.init({
   
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 100, // offset (in px) from the original trigger point
+  offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
   duration: 400, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
