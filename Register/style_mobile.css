@@ -1,0 +1,352 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body 
+{
+    width:100%;
+    border:0;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.landing
+{
+
+    width:100%;
+    height:fit-content;
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(17,0,100,1) 21%, rgba(25,7,118,1) 41%, rgba(45,25,143,1) 62%, rgba(201,57,104,1) 100%);
+    transition:0.7s;
+    
+}
+
+
+
+.hamburger-menu
+{
+    width:80vw;
+    height:100vh;
+    position:absolute;
+    background: rgb(14,10,109);
+    background: linear-gradient(90deg, rgba(14,10,109,1) 0%, rgba(6,4,71,1) 100%);
+    left:0;
+    z-index:666;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition:0.7s;
+    transform:translateX(-80vw);
+}
+
+.hamburger-open 
+{
+    transform:translateX(0px);
+    transition:0.7s;
+}
+
+.landing-open 
+{
+    transform:translateX(80vw);
+    transition:0.7s;
+}
+.profile 
+{
+    width:fit-content;
+    height:50px;
+    margin-top:20px;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img 
+{
+    width:30px;
+    height:30px;
+    border:1px solid white;
+    border-radius:100%;
+    padding:10px;
+    margin:0px 10px;
+}
+
+.nickname 
+{
+    font-size:16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.705);
+    letter-spacing: 1px;
+}
+
+.hamburger-link 
+{
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.705);
+    letter-spacing: 1px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-link a 
+{
+    text-decoration: none;
+    color:white;
+}
+.ham-link-img 
+{
+    width:40px;
+    height:40px;
+    margin:30px 20px;
+}
+
+
+
+
+.header-logo
+{
+    width:50px;
+    height:50px;
+    position:absolute;
+    color:white;
+    right:30px;
+}
+
+header 
+{
+    width:100%;
+    height:80px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-button
+{
+    position:absolute;
+    left:10px;
+    height:60px;
+    width:60px;
+    background:none;
+    border:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-span, .second-span, .third-span
+{
+    width:45px;
+    height:3px;
+    background:rgb(255, 255, 255);
+    border-radius:20px;
+    position:absolute;
+}
+
+.first-span 
+{
+    transform:translateY(-15px);
+    transition:0.7s;
+}
+
+.second-span 
+{
+    transform:translateY(0px);
+    transition:0.7s;
+}
+
+
+.third-span 
+{
+    transform:translateY(15px);
+    transition:0.7s;
+}
+
+.first-open 
+{
+    transform:rotate(45deg);
+    transition:0.7s;
+}
+.second-open 
+{
+    opacity:0;
+    transition:0.7s;
+}
+.third-open 
+{
+    transform:rotate(-45deg);
+    transition:0.7s;
+}
+
+nav 
+{
+    display:none;
+}
+
+
+
+
+
+
+.container 
+{
+    width:100%;
+    height:fit-content;
+    padding-bottom:110px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:0px;
+}
+
+.container img 
+{
+    width:250px;
+    height:250px;
+}
+
+form 
+{
+    width: 90%;
+    height:600px;
+    border-radius:50px;
+    background:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin:30px 0px;
+}
+
+h1 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color:rgba(0, 0, 0, 0.795);
+    font-weight: 500;
+    margin:20px 30px;
+}
+
+label 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    color:rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    margin:0px 30px;
+}
+
+.form-inputs
+{
+    border:none;
+    background:transparent;
+    font-size:16px;
+    color:rgba(0, 0, 0, 0.781);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding:5px 10px;
+    margin:0px 30px;
+    width:90%;
+    border-radius:50px;
+
+}
+
+.underline
+{
+    width:90%;
+    height:3px;
+    background: rgb(228,45,89);
+    background: linear-gradient(90deg, rgba(228,45,89,1) 0%, rgba(55,63,177,1) 100%); 
+    margin:0px 30px 20px 30px;
+}
+
+.confirm 
+{
+    width:350px;
+    margin:10px 40px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+p1 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    margin:0px 10px;
+    text-align: left;
+    line-height: 16px;
+}
+
+.confirm input 
+{
+    width:10px;
+    height:10px;
+    border-radius:20px;
+    border:2px solid black;
+}
+
+p1 a 
+{
+    color:#005DFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#submit
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: center;
+    background: rgb(228,45,89);
+    background: linear-gradient(90deg, rgba(228,45,89,1) 0%, rgba(55,63,177,1) 100%); 
+    border:none;
+    border-radius:50px;
+    padding:10px 50px;
+    margin:10px 25%;
+    transition:opacity .4s;
+}
+
+#submit:hover 
+{
+    opacity:0.7;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.have-account
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:19px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    margin:0px 10px;
+    text-align: left;
+    line-height: 16px;
+    text-decoration: underline;
+    position:absolute;
+    bottom:0;
+    align-self: center;
+    transform:translateY(30px);
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" media="screen and (min-width: 1000px)">
+        <link rel="stylesheet" href="style_mobile.css" media="screen and (max-width: 1000px)">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+
+
+        <div class="landing">
+
+
+            <div class="hamburger-menu">
+
+                <span class="profile">
+                    <img src="images/user1.png" alt="User">
+                    <span class="nickname">User Nickname</span>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+                
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+            </div>
+
+
+
+             <header>
+                 <img src="images/logo.png" alt="22bit.io" class="header-logo" data-aos="zoom-in">
+                <button class="hamburger-button" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                </button>   
+
+                <nav data-aos="zoom-in" data-aos-delay="500">
+                    <a href="#" class="nav-link">HOME</a>
+                    <a href="#" class="nav-link">CONTACT</a>
+                    <a href="#" class="nav-link">ABOUT US</a>
+                    <a href="#" class="nav-link">LOGIN</a>
+                    <a href="#" class="nav-link">SIGN UP</a>
+                    <span class="underline-span"></span>
+                </nav>
+            </header>
+
+        <div class="container">
+                <img src="images/undraw_crypto_portfolio_2jy5.svg" alt="REGISTER">
+                <form>
+                    <h1>Sign Up</h1>
+                    <label>Email Adress</label>
+                    <input type="email" id="email-input" class="form-inputs">
+                    <span class="underline"></span>
+
+                    <label>Username</label>
+                    <input type="text" id="username-input" class="form-inputs">
+                    <span class="underline"></span>
+
+                    <label>Password</label>
+                    <input type="password" id="password-input" class="form-inputs">
+                    <span class="underline"></span>
+
+                    <label>Confirm Password</label>
+                    <input type="password" id="password-confirm-input" class="form-inputs">
+                    <span class="underline"></span>
+
+                    <span class="confirm">
+                        <input type="checkbox">
+                        <p1>By continuing I agree to the <a href="#">Terms of Service and Privacy Policy.</a></p1>
+                    </span>
+
+                    <input type="submit" id="submit" value="WYŚLIJ">
+                    <a href="#" class="have-account">Already have an account? Log in!</a>
+                </form>
+
+
+        </div>
+
+
+
+    </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="app.js" async defer></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 100, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+        </script>
+    </body>
+</html>
