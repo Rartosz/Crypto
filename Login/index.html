@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" media="screen and (min-width: 1000px)">
+        <link rel="stylesheet" href="style_mobile.css" media="screen and (max-width: 1000px)">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+
+
+        <div class="landing">
+
+
+            <div class="hamburger-menu">
+
+                <span class="profile">
+                    <img src="images/user1.png" alt="User">
+                    <span class="nickname">User Nickname</span>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+                
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+
+                <span class="hamburger-link">
+                    <img src="images/home.png" class="ham-link-img">
+                    <a href="#">Link</a>
+                </span>
+            </div>
+
+
+
+             <header>
+                 <img src="images/logo3.svg" alt="22bit.io" class="header-logo" data-aos="zoom-in">
+                <button class="hamburger-button" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                </button>   
+
+                <nav data-aos="zoom-in" data-aos-delay="500">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="/Contact/index.html" class="nav-link">CONTACT</a>
+                    <a href="#" class="nav-link">ABOUT US</a>
+                    <a href="#" class="nav-link">LOGIN</a>
+                    <a href="/Register/index.html" class="nav-link">SIGN UP</a>
+                    <span class="underline-span"></span>
+                </nav>
+            </header>
+
+            
+            <div class="container">
+                <img src="images/btrtc.png" alt="BITCOIN" class="image">
+
+                <div class="login-container">
+
+                    <div class="info">
+    
+                        <div class="description description-active">
+                            <img src="images/locker.png" alt="SAFETY">
+                            <h1>We care about your privacy</h1>
+                            <p1>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p1>
+                        </div>
+
+                        <div class="description">
+                            <img src="images/payment.png" alt="FAST PAYMENT" class="payment-img">
+                            <h1>Fast international payments</h1>
+                            <p1>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p1>
+                        </div>
+
+                        <div class="description">
+                            <img src="images/crypto.png" alt="CRYPTOCURRENCY" class="imgg">
+                            <h1>Over 30 currencies</h1>
+                            <p1>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p1>
+                        </div>
+
+                        <div class="description">
+                            <img src="images/earn.png" alt="EARN"  class="imgg">
+                            <h1>Earn money by investing</h1>
+                            <p1>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p1>
+                        </div>
+
+                        <div class="description">
+                            <img src="images/easy-icon-3.png" alt="EASY TO USE"  class="payment-img">
+                            <h1>So easy to use</h1>
+                            <p1>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p1>
+                        </div>
+                        <a href="../About Us/index.html" class="learn-more">Learn More</a>
+
+                        <div class="dots">
+
+                            <span class="dot dot-active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            
+                        </div>
+
+                    </div>
+
+                    <form>
+                        <h2>Log In</h2>
+                        <label>Email Adress</label>
+                        <input type="email" class="text-input">
+                        <span class="underline"></span>
+
+                        <label>Password</label>
+                        <input type="password" class="text-input">
+                        <span class="underline"></span>
+
+                        <input type="submit" class="submit" value="Log In">
+                        <a href="#">Forgot email?</a>
+                        <a href="#">Forgot password?</a>
+                        <a href="#">Don't have any account? Sign Up!</a>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </div>
+
+
+
+
+
+
+
+        <script src="app.js" async defer></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 100, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+        </script>
+    </body>
+</html>
